@@ -7,6 +7,9 @@ The MIAO is a cheap and hand-solderable drop-in replacement for the Seeeduino Xi
 It is fully ESD protected, including reverse current protection and overcurrent protection.
 It utilizes wch's ch552t microcontroller, which at the time of writing costs a few dozen cents!
 
+![miaofront](https://github.com/kilipan/miao/blob/main/img/miao_3d_front.png?raw=true)
+![miaoback](https://github.com/kilipan/miao/blob/main/img/miao_3d_back.png?raw=true)
+
 # Features
 This board should fit onto any pcb that is designed for mounting a XIAO board via through-holes.  
 (Castellated holes are expensive, so the MIAO doesn't support them [for now].)
