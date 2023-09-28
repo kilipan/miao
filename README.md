@@ -1,13 +1,13 @@
-# Kaching ch552t MCU board
-The kaching is a cheap and hand-solderable drop-in replacement for the Seeeduino Xiao series.
+# MIAO (喵) ch552t MCU board
+The MIAO is a cheap and hand-solderable drop-in replacement for the Seeeduino Xiao series.
 It is fully ESD protected, including reverse current protection and overcurrent protection.
-It utilizes wch's ch552t microcontroller, which at the time of writing costs a few dozen cents! 可乘!
+It utilizes wch's ch552t microcontroller, which at the time of writing costs a few dozen cents!
 
 # Features
-This board should fit onto any pcb that is designed for mounting a Xiao board via through-holes.  
-(Castellated holes are expensive, so the Kaching doesn't support them [for now].)
+This board should fit onto any pcb that is designed for mounting a XIAO board via through-holes.  
+(Castellated holes are expensive, so the MIAO doesn't support them [for now].)
 
-Kaching features:
+MIAO features:
 - Top-mount USB port for maximum drop-in-ability
 - 4 additional broken out pins (not pads!) compared to the Xiao boards:
   - 2 free GPIOs (P3.0 and P3.1)
