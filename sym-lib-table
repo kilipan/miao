@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "marbastlib-various")(type "KiCad")(uri "${LIBS}/marbastlib/marbastlib-various.kicad_sym")(options "")(descr ""))
+)
