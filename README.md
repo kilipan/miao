@@ -1,6 +1,7 @@
 # MIAO (喵) ch552t MCU board
 
-**THIS HARDWARE IS UNTESTED** as of 2023-09-28. **Use at your own risk!**
+| :zap: **THIS HARDWARE IS UNTESTED** as of 2023-09-28. **Use at your own risk!** |
+|---------------------------------------------------------------------------------|
 
 The MIAO is a cheap and hand-solderable drop-in replacement for the Seeeduino Xiao series.
 It is fully ESD protected, including reverse current protection and overcurrent protection.
