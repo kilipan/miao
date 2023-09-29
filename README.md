@@ -1,5 +1,8 @@
 # MIAO (喵) ch552t MCU board
 
+| ❗ **THE CURRENT VERSION HAS MIXED UP GND AND 3V3 PINS! DO NOT GET THIS MANUFACTURED FOR XIAO DROP-IN!** 2023-09-29 |
+|---|
+
 | :zap: **THIS HARDWARE IS UNTESTED** as of 2023-09-28. **Use at your own risk!** |
 |---------------------------------------------------------------------------------|
 
