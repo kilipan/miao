@@ -1,8 +1,8 @@
 # MIAO (喵) ch552t MCU board
 
-| ❗ THE CURRENT VERSION HAS MIXED UP GND AND 3V3 PINS! DO NOT GET THIS MANUFACTURED FOR XIAO DROP-IN! 2023-09-29 |
-| Hopefully fixed! - 2023-09-30 |
-|---|
+### Changelog
+2023-09-29 initial commit
+2023-09-30 fixed pinout to correspond to Xiao, added jumper to choose between RX/CS on pin 8, completely rerouted
 
 | :zap: **THIS HARDWARE IS UNTESTED** as of 2023-09-28. **Use at your own risk!** |
 |---------------------------------------------------------------------------------|
@@ -20,14 +20,16 @@ This board should fit onto any pcb that is designed for mounting a XIAO board vi
 
 MIAO features:
 - Top-mount USB port for maximum drop-in-ability
+- SPI and UART pins in the same places as Xiao (use jumper to choose between RX/CS on pin 8)
 - 4 additional broken out pins (not pads!) compared to the Xiao boards:
-  - 2 free GPIOs (P3.0 and P3.1)
+  - 2 free GPIOs
   - reset pin (pull HIGH for reset)
   - boot pin (pull HIGH for entering bootloader)
 - Full ESD protection incl. protection against reverse current and overcurrent
 - Optional power or user led (on the backside; bridge left and middle jumper for always-on, middle and right for user controllable via P3.3)
 - Optional reset and bootloader buttons (on the backside)
 - Optional footprint for connecting USB Shield to GND in a way that fits your application
+- Cute pixel cat on the back! 🐱
 
 
 # Firmware
@@ -40,3 +42,4 @@ The hardware design is licensed under the CERN-OHL-v2-S license, so feel free to
 - semickolon for creating FAK, inspiring the project and helping with design considerations
 - 0xCB for open-sourcing the [Helios](https://github.com/0xCB-dev/0xCB-Helios/) and providing inspiration for the ESD stuff
 - the Clacktales community for their continued support, discussion, and interest in the project
+- Pete Johanson for noticing and pointing out the pinout mix-up
