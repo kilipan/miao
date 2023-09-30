@@ -1,7 +1,7 @@
 # MIAO (喵) ch552t MCU board
 
 ### Changelog
-2023-09-29 initial commit
+2023-09-29 initial commit  
 2023-09-30 fixed pinout to correspond to Xiao, added jumper to choose between RX/CS on pin 8, completely rerouted
 
 | :zap: **THIS HARDWARE IS UNTESTED** as of 2023-09-28. **Use at your own risk!** |
