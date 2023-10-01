@@ -13,9 +13,18 @@ MIAO is a cheap and hand-solderable drop-in replacement for the Seeeduino Xiao s
 
 喵 is the Hanzi for "miāo", which is Mandarin for "meow".
 
+<details>
+<summary> Front view render </summary>
 ![miaofront](https://github.com/kilipan/miao/blob/main/img/miao_3d_front.png?raw=true)
+</details>
+<details>
+<summary> Back view render </summary>
 ![miaoback](https://github.com/kilipan/miao/blob/main/img/miao_3d_back.png?raw=true)
+</details>
+<details>
+<summary> Schematic </summary>
 ![miaoschematic](https://github.com/kilipan/miao/blob/main/img/miao_schematic.png?raw=true)
+</details>
 
 # Features
 MIAO features:
