@@ -4,8 +4,8 @@
 2023-09-29 initial commit  
 2023-09-30 fixed pinout to correspond to Xiao, added jumper to choose between RX/CS on pin 8, completely rerouted
 
-| :zap: **THIS HARDWARE IS UNTESTED** as of the latest commit. **Use at your own risk!** |
-|----------------------------------------------------------------------------------------|
+| :zap: The hardware design is tested and confirmed working as of the latest commit. Nevertheless I cannot guarantee anything. **Use at your own risk!** |
+|---|
 
 ## About
 MIAO is a cheap and hand-solderable drop-in replacement for the Seeeduino Xiao series.  
@@ -49,6 +49,20 @@ MIAO features:
 - Optional footprint for connecting USB Shield to GND in a way that fits your application
 - Cute pixel cat on the back! 🐱
 
+# BOM
+| Amount | Part | LCSC part number |
+| ------:|:-----|:-----------------|
+|      1 | ch552t microcontroller | [C111367](https://www.lcsc.com/product-detail/USB-ICs_WCH-Jiangsu-Qin-Heng-CH552T_C111367.html) |
+|      1 | top-mount USB-C receptacle | [C2765186](https://www.lcsc.com/product-detail/_SHOU-HAN-_C2765186.html) |
+|      1 | SOT-23 ESD protection diode | [C6807798](https://www.lcsc.com/product-detail/_FUXINSEMI-_C6807798.html) |
+|      1 | SOD-323 Schottky diode | [C193668](https://www.lcsc.com/product-detail/_Nexperia-_C193668.html) |
+|      1 | 0603 Fuse | [C311055](https://www.lcsc.com/product-detail/_AEM-_C311055.html) |
+|      1 | 0603 10kΩ Resistor | [C25804](https://www.lcsc.com/product-detail/_UNI-ROYAL-Uniroyal-Elec-_C25804.html) |
+|      2 | 0603 5.1kΩ Resistor | [C23186](https://www.lcsc.com/product-detail/_UNI-ROYAL-Uniroyal-Elec-_C23186.html) |
+|      2 | 0603 100nF Capacitors | [C384773](https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Walsin-Tech-Corp-0603X334K100CT_C384773.html) |
+|    [1] | [optional] 1kΩ Resistor | [C21190](https://www.lcsc.com/product-detail/_UNI-ROYAL-Uniroyal-Elec-_C21190.html) |
+|    [2] | [optional] push buttons | [C115357](https://www.lcsc.com/product-detail/_ALPSALPINE-_C115357.html) |
+|    [1] | [optional] LED | [C434442](https://www.lcsc.com/product-detail/_Yongyu-Photoelectric-_C434442.html) |
 
 # Firmware
 The project is inspired by and designed for usage with
