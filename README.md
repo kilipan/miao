@@ -14,6 +14,8 @@ MIAO is a cheap and hand-solderable drop-in replacement for the Seeeduino Xiao s
 喵 is the Hanzi for "miāo", which is Mandarin for "meow".
 
 ## Pictures
+Renders of the handsolderable version and a screenshot of the schematic can be unfolded below.
+
 <details>
 <summary> Front view render </summary>
 
@@ -44,12 +46,18 @@ MIAO features:
   - boot pin (pull HIGH for entering bootloader)
 - Full ESD protection incl. protection against reverse current and overcurrent
 - Top-mount USB port for maximum drop-in-ability
-- Optional power or user led (on the backside; bridge left and middle part of jumper for always-on, middle and right for user controllable via P3.3)
-- Optional reset and bootloader buttons (on the backside)
+- Optional power or user led (on the backside for the handsolderable version; bridge left and middle part of jumper for always-on, middle and right for user controllable via P3.3)
+- Optional reset and bootloader buttons (on the backside for the handsolderable version)
 - Optional footprint for connecting USB Shield to GND in a way that fits your application
 - Cute pixel cat on the back! 🐱
 
+# Availability
+As production files are open sourced, you can get these manufactured at your favorite PCB-manufacturer. Alternatively, [https://keeb.supply/](keeb.supply) is selling the PCBA version usage-ready for a great price! Thanks guys! <3
+Non-affiliate link: [https://keeb.supply/products/miao](Miao page on keeb.supply)
+
 # BOM
+**This BOM is for the handsolderable version only.** For the PCBA version please refer to the given files.
+
 | Amount | Part | LCSC part number | Silkscreen Reference | Comment |
 |-------:|:-----|:-----------------|:---------------------|:--------|
 |      1 | ch552t microcontroller | [C111367](https://www.lcsc.com/product-detail/USB-ICs_WCH-Jiangsu-Qin-Heng-CH552T_C111367.html) | U1 | |

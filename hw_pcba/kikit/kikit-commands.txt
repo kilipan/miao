@@ -1,0 +1,5 @@
+Generate panel from PCB:
+docker run -v $(pwd):/kikit yaqwsx/kikit:v1.3.0-v7 panelize -p ./kikit/frame.json ./kicad_miao.kicad_pcb ./kikit/panel/kicad_miao-panel.kicad_pcb
+
+Generate production files:
+docker run -v $(pwd):/kikit yaqwsx/kikit:v1.3.0-v7 fab jlcpcb --no-drc --assembly --schematic ./kicad_miao.kicad_sch ./kikit/panel/kicad_miao-panel.kicad_pcb ./kikit/prod

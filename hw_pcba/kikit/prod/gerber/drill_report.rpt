@@ -1,0 +1,28 @@
+Drill report for kicad_miao-panel.kicad_pcb
+Created on Sun Dec 10 21:50:17 2023
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  B.Cu                      back
+
+
+Drill file 'kicad_miao-panel.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.300mm  0.0118"  (2050 holes)
+    T2  0.400mm  0.0157"  (100 holes)
+    T3  0.600mm  0.0236"  (200 holes)  (with 200 slots)
+    T4  1.000mm  0.0394"  (1800 holes)
+
+    Total plated holes count 4150
+
+
+Not plated through holes are merged with plated holes
+    unplated through holes:
+    =============================================================
+    T5  0.400mm  0.0157"  (1736 holes)
+    T6  0.650mm  0.0256"  (100 holes)
+    T7  2.000mm  0.0787"  (3 holes)
+
+    Total unplated holes count 1839
