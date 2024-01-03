@@ -52,8 +52,8 @@ MIAO features:
 - Cute pixel cat on the back! 🐱
 
 # Availability
-As production files are open sourced, you can get these manufactured at your favorite PCB-manufacturer. Alternatively, [https://keeb.supply/](keeb.supply) is selling the PCBA version usage-ready for a great price! Thanks guys! <3
-Non-affiliate link: [https://keeb.supply/products/miao](Miao page on keeb.supply)
+As production files are open sourced, you can get these manufactured at your favorite PCB-manufacturer. Alternatively, [keeb.supply](https://keeb.supply/) is selling the PCBA version usage-ready for a great price! Thanks guys! <3
+Non-affiliate link: [Miao page on keeb.supply](https://keeb.supply/products/miao)
 
 # BOM
 **This BOM is for the handsolderable version only.** For the PCBA version please refer to the given files.
