@@ -83,4 +83,9 @@
   (pad "17" thru_hole circle (at 6.155 -9.23 90) (size 1.6 1.6) (drill 1) (layers "*.Cu" "*.Mask") (tstamp b4d83956-496b-49ab-a243-8544620829ea))
   (pad "18" smd roundrect (at -6.155 -9.7 90) (size 2.87 1.6) (drill (offset 0.635 0)) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 035168aa-5d29-4353-9488-3ed6ecb39b30))
   (pad "18" thru_hole circle (at -6.155 -9.23 90) (size 1.6 1.6) (drill 1) (layers "*.Cu" "*.Mask") (tstamp b32ad323-6854-47ad-8952-8bc73f495ac3))
+  (model ":LIBS:apfellib/3d/Miao_PCBA.wrl"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
