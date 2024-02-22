@@ -8,10 +8,13 @@
 |---|
 
 ## About
-MIAO is a cheap and hand-solderable drop-in replacement for the Seeeduino Xiao series.  
-(Castellated holes are expensive, so MIAO doesn't support them [for now].)
+MIAO is a cheap drop-in replacement for the Seeeduino Xiao series.
 
 喵 is the Hanzi for "miāo", which is Mandarin for "meow".
+
+The board is available in two variants:
+- A super cheap, hand-solderable version in `hw_handsolder` (since castellated holes are expensive, this version doesn't support them.)
+- A cheap, pcba version in `hw_pcba`, featuring castellated holes
 
 ## Pictures
 Renders of the handsolderable version and a screenshot of the schematic can be unfolded below.
@@ -55,7 +58,7 @@ MIAO features:
 As production files are open sourced, you can get these manufactured at your favorite PCB-manufacturer. Alternatively, [keeb.supply](https://keeb.supply/) is selling the PCBA version usage-ready for a great price! Thanks guys! <3
 Non-affiliate link: [Miao page on keeb.supply](https://keeb.supply/products/miao)
 
-# BOM
+# BOM (handsolder only)
 **This BOM is for the handsolderable version only.** For the PCBA version please refer to the given files.
 
 | Amount | Part | LCSC part number | Silkscreen Reference | Comment |
